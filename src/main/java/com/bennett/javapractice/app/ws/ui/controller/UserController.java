@@ -27,7 +27,7 @@ import com.bennett.javapractice.app.ws.ui.model.response.RequestOperationStatus;
 import com.bennett.javapractice.app.ws.ui.model.response.UserRest;
 
 @RestController
-@RequestMapping("/users") // http://localhost:8080/users
+@RequestMapping("/users") // http://localhost:8080/mobileappwebservice/users
 public class UserController {
 
 	@Autowired
